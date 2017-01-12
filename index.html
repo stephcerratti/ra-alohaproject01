@@ -2,82 +2,81 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+    <title>Aloha Apparel</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200i,400" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Aloha Apparel</title>
   </head>
 
   <body>
       <header>
-          <img id="aloha-logo" src="assets/images/aloha-logo.svg" alt="Aloha Logo">
-          <img id="shopping-cart" src="assets/images/cart-icon.svg" alt="Shopping Cart">
+          <img class="header-image left" src="assets/images/aloha-logo.svg" alt="Aloha Logo">
+          <img class="header-image right" src="assets/images/cart-icon.svg" alt="Shopping Cart">
       </header>
 
-    <main>
+      <main>
 
-      <section id="banner">
+        <section class="background-image-cover banner">
           <div class="banner-girl"></div>
-          <div id="banner-text">
-          <h1 id="new-collection" class="banner-title">New Collection</h1>
-            <h2 id="spring-summer" class="banner-title">Spring/Summer 2016</h2>
-          </div>
-            
-      </section>
+            <div class="banner-text white-text">
+              <h1 class="new-collection">New Collection</h1>
+              <h2 class="spring-summer">Spring/ Summer 2016</h2>
+            </div>
+        </section>
 
      
-          <section class="about">
-              <h3 class="about-title">Hand-Crafted <span class="styled-word">Styles</span></h3>
-              <p id="about-text">Aloha Apparel Co. Sells only the finest ready-to-travel clothing.
-                                  Browse our <br>current selection of products or sign-up for updates below.</p>
-          </section>
+        <section class="cta section-format">
+              <h3 class="grey-text section-title">Hand-Crafted <span class="styled-word">Styles</span></h3>
+              <p class="section-text light-grey-text">Aloha Apparel Co. Sells only the finest ready-to-travel clothing.
+              Browse our <br>current selection of products or sign-up for updates below.</p>
+        </section>
 
-              <hr class="line">
 
-          <section id="products">
-              <h3 id="Most-Loved">Most-Loved <span class="styled-word">Products</span></h3>
+        <section class="products section-format">
+              <h3 class="grey-text section-title" id="product-title">Most-Loved <span class="styled-word">Products</span></h3>
                 <div id="product-roll">
                     <div class="item-width-25">
                       <img class="item-pic" src="assets/images/stretch-knit-dress.jpg" alt="Stretch Knit Dress">
-                      <p>Dresses</p>
-                      <h4>Stretch Knit Dress</h4>
-                      <p>$169.00</p>
+                      <p class="item-text section-text item-type">Dresses</p>
+                      <h4 class="red-text section-text">Stretch Knit Dress</h4>
+                      <p class="item-text section-text price">$169.00</p>
                     </div>
 
                     <div class="item-width-25">
                       <img class="item-pic" src="assets/images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirt">
-                      <p>Shirts</p>
-                      <h4>Cotton Blue Shirt</h4>
-                      <p>$89.00</p>
+                      <p class="item-text section-text item-type">Shirts</p>
+                      <h4 class="red-text section-text">Cotton Blue Shirt</h4>
+                      <p class="item-text section-text price">$89.00</p>
                     </div>
 
                     <div class="item-width-25">
                         <img class="item-pic" src="assets/images/checked-stretch-dress.jpg" alt="Checked Stretch Dress<">
-                        <p>Dresses</p>
-                        <h4>Checked Stretch Dress</h4>
-                        <p>$129.00</p>
+                        <p class="item-text section-text item-type">Dresses</p>
+                        <h4 class="red-text section-text">Checked Stretch Dress</h4>
+                        <p class="item-text section-text price">$129.00</p>
                     </div>
 
                     <div class="item-width-25">
                       <img class="item-pic" src="assets/images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack">
-                      <p>Bags</p>
-                      <h4>Blue Hipster Backpack</h4>
-                      <p>$69.00</p>
+                      <p class="item-text section-text item-type">Bags</p>
+                      <h4 class="red-text section-text">Blue Hipster Backpack</h4>
+                      <p class="item-text section-text price">$69.00</p>
                     </div>
 
                   </div>
           </section>
 
-          <section id="signup">
+          <section class="background-image-cover signup">
               <div class="signup-form">
-                  <h3 class="signup-title">Sign-Up for <span class="styled-word">Updates</span></h3>
-                  <p>Stay updated on our latest product releases, be first to find out
+                  <h3 class="signup-title white-text section-title">Sign-Up for <span class="styled-word">Updates</span></h3>
+                  <p class="section-text white-text">Stay updated on our latest product releases, be first to find out
                   about upcoming <br> sales, and get free style tips from our blog.
                   Unsubscribe at anytime.</p>
-                <div class="email-form">
-                  <input type="email" placeholder="Your Email">
-                  <button type="button">Subscribe</button>
+
+                <div class="sub-form">
+                  <input class="email-form" type="email" placeholder="Your Email">
+                  <input class="subscribe" type="submit" value="Subscribe">
                 </div>
               </div>
           </section>
@@ -85,24 +84,26 @@
     </main>
 
           <footer>
-            <div class="info">
-              <p> &copy;2016 Aloha Apparel Co. <br>
+            <section class="footer">
+              <div class="info left footer-section">
+                <p class="white-text"> &copy;2016 Aloha Apparel Co. <br>
                 Powered By HTML and CSS. </p>
-              <p>604-604-6040. info@alohaapparel.com </p>
-              <p> 1490 W Broadway <br>
+                <p class="white-text phone">604-604-6040. info@alohaapparel.com </p>
+                <p class="light-grey-text address"> 1490 W Broadway <br>
                 Vancouver, BC, Canada</p>
-            </div>
+              </div>
 
-            <div class="social">
-              <ul>
-                <li>Facebook</li>
-                <li>Twitter</li>
-                <li>Instagram</li>
-                <li>Pinterest</li>
-                <li>Google+</li>
-              </ul>
-            </div>
-        </footer>
+              <div class="social right footer-section">
+                <ul>
+                 <li class="white-text">Facebook</li>
+                  <li class="white-text">Twitter</li>
+                  <li class="white-text">Instagram</li>
+                  <li class="white-text">Pinterest</li>
+                  <li class="white-text">Google+</li>
+                </ul>
+              </div>
+            </section>
+          </footer>
 
 </body>
 </html>
